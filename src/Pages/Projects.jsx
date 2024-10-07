@@ -20,6 +20,8 @@ import digiclock from "../assets/digiclock.png"
 import calculator from "../assets/calculator.png"
 import razorpay from "../assets/razorpay.png"
 import portfolio from "../assets/portfolio.png"
+import amazon from "../assets/amazon.png"
+import usablity from "../assets/usablity.png"
 
 
 const Projects = () => {
@@ -38,8 +40,8 @@ const Projects = () => {
                 <ProjectCards image={razorpay} url={"https://github.com/s7917/Razorpay-clone"} title={"RazorPay Clone using HTML , Tailwind CSS "}/>
                 <ProjectCards image={portfolio} url={"https://github.com/s7917/PORTFOLIO-MAKER-APP.github.io"} title={"Devloped a portfolio Maker APP using HTML , CSS , Javascript"}/>
                 <ProjectCards image={digiclock} url={"https://github.com/s7917/digital-Clock.github.io"} title={"devloped a digital Clock Using HTML , CSS , Javascript"}/>
-                <ProjectCards image={razorpay} url={"https://github.com/s7917/usabilitywebsite.github.io"} title={"Usabilitywebsite Clone using html ,CSS , javascript"}/>
-                <ProjectCards image={razorpay} url={"https://github.com/s7917/Amazon-clone-html-css-project"} title={"Amazon website clone"}/>
+                <ProjectCards image={usablity} url={"https://github.com/s7917/usabilitywebsite.github.io"} title={"Usabilitywebsite Clone using html ,CSS , javascript"}/>
+                <ProjectCards image={amazon} url={"https://github.com/s7917/Amazon-clone-html-css-project"} title={"Amazon website clone"}/>
                 <ProjectCards image={calculator} url={"https://github.com/s7917/CALCULATOR"} title={"A simple Calculator"}/>
 
               </div>
