@@ -1,7 +1,7 @@
 import React from 'react'
-import wanderlust from "../assets/wanderlust.png"
-import ecommerce from "../assets/ecommerce.png"
-import foodOrdering from "../assets/foodOrdering.png"
+
+import codetogether from "../assets/codetogether.png"
+import curiomart from "../assets/curiomart.png"
 import classyads from "../assets/classyads.png"
 import blogApp from "../assets/blogApp.png"
 import bookStore from "../assets/bookStore.png"
@@ -15,6 +15,12 @@ import { SiLinkedin } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { FaTwitterSquare } from "react-icons/fa";
 import ProjectCards from '../components/ProjectCards'
+import paralex from "../assets/paralex.png"
+import digiclock from "../assets/digiclock.png"
+import calculator from "../assets/calculator.png"
+import razorpay from "../assets/razorpay.png"
+import portfolio from "../assets/portfolio.png"
+
 
 const Projects = () => {
   return (
@@ -26,15 +32,15 @@ const Projects = () => {
             <div className=''>
               <div className="grid justify-items-center align-middle grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 
-                <ProjectCards image={ecommerce} url={"https://github.com/s7917/Code-shares"} title={"Fullstack online Code Collabration App developed using MERN technology."}/>
-                <ProjectCards image={wanderlust} url={"https://github.com/s7917/CurioMart"} title={"Fullstack online Ecommerce website Using Mern Stack technology"}/>
-                <ProjectCards image={foodOrdering} url={"https://github.com/s7917/PARALLAX-EFFECT-website"} title={" parallax effect website using HTML, CSS, JavaScript"}/>
-                <ProjectCards image={blogApp} url={"https://github.com/s7917/Razorpay-clone"} title={"RazorPay Clone using HTML , Tailwind CSS "}/>
-                <ProjectCards image={bookStore} url={"https://github.com/s7917/PORTFOLIO-MAKER-APP.github.io"} title={"Devloped a portfolio Maker APP using HTML , CSS , Javascript"}/>
-                <ProjectCards image={classyads} url={"https://github.com/s7917/digital-Clock.github.io"} title={"devloped a digital Clock Using HTML , CSS , Javascript"}/>
-                <ProjectCards image={NewsApp} url={"https://github.com/s7917/usabilitywebsite.github.io"} title={"Usabilitywebsite Clone using html ,CSS , javascript"}/>
-                <ProjectCards image={SocialMedia} url={"https://github.com/s7917/Amazon-clone-html-css-project"} title={"Amazon website clone"}/>
-                <ProjectCards image={movieflix} url={"https://github.com/s7917/CALCULATOR"} title={"A simple Calculator"}/>
+                <ProjectCards image={codetogether} url={"https://github.com/s7917/Code-shares"} title={"Fullstack online Code Collabration App developed using MERN technology."}/>
+                <ProjectCards image={curiomart} url={"https://github.com/s7917/CurioMart"} title={"Fullstack online Ecommerce website Using Mern Stack technology"}/>
+                <ProjectCards image={paralex} url={"https://github.com/s7917/PARALLAX-EFFECT-website"} title={" parallax effect website using HTML, CSS, JavaScript"}/>
+                <ProjectCards image={razorpay} url={"https://github.com/s7917/Razorpay-clone"} title={"RazorPay Clone using HTML , Tailwind CSS "}/>
+                <ProjectCards image={portfolio} url={"https://github.com/s7917/PORTFOLIO-MAKER-APP.github.io"} title={"Devloped a portfolio Maker APP using HTML , CSS , Javascript"}/>
+                <ProjectCards image={digiclock} url={"https://github.com/s7917/digital-Clock.github.io"} title={"devloped a digital Clock Using HTML , CSS , Javascript"}/>
+                <ProjectCards image={razorpay} url={"https://github.com/s7917/usabilitywebsite.github.io"} title={"Usabilitywebsite Clone using html ,CSS , javascript"}/>
+                <ProjectCards image={razorpay} url={"https://github.com/s7917/Amazon-clone-html-css-project"} title={"Amazon website clone"}/>
+                <ProjectCards image={calculator} url={"https://github.com/s7917/CALCULATOR"} title={"A simple Calculator"}/>
 
               </div>
 
