@@ -44,18 +44,20 @@ const Navbar = () => {
                                 <ul
                                     tabIndex={0}
                                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                    <li><NavLink to={"/projects"} className='hover:text-[#008080] dark:hover:text-[#14F8A3] border-1 text-[15px]'>Projects</NavLink></li>
-                                    <li><NavLink to={"/about"} className='hover:text-[#008080] dark:hover:text-[#14F8A3] border-1 text-[15px]'>About Me</NavLink></li>
-                                    <li><NavLink to={"/contact"} className='hover:text-[#008080] dark:hover:text-[#14F8A3] border-1 text-[15px]'>Contact Me</NavLink></li>
+                                         <li><NavLink to={"/"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] border-1 text-[15px]'>Home</NavLink></li>
+                                    <li><NavLink to={"/projects"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] border-1 text-[15px]'>Projects</NavLink></li>
+                                    <li><NavLink to={"/about"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] border-1 text-[15px]'>About Me</NavLink></li>
+                                    <li><NavLink to={"/contact"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] border-1 text-[15px]'>Contact Me</NavLink></li>
                                 </ul>
                             </div>
-                            <Link to={"/"} className="btn btn-ghost text-xl text-[#008080] dark:text-[#14F8A3]">Portfolio</Link>
+                            <Link to={"/"} className="btn btn-ghost text-xl font-bold text-[#CB9DF0] dark:text-[#8f2bdf]">Portfolio</Link>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal px-1 gap-2">
-                                <li><NavLink to={"/projects"} className='hover:text-[#008080] dark:hover:text-[#14F8A3] shadow-sm border-1 text-[15px]'>Projects</NavLink></li>
-                                <li><NavLink to={"/about"} className='hover:text-[#008080] dark:hover:text-[#14F8A3] shadow-sm border-1 text-[15px]'>About Me</NavLink></li>
-                                <li><NavLink to={"/contact"} className='hover:text-[#008080] dark:hover:text-[#14F8A3] shadow-sm border-1 text-[15px]'>Contact Me</NavLink></li>
+                            <li><NavLink to={"/"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] border-1 text-[15px]'>Home</NavLink></li>
+                                <li><NavLink to={"/projects"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] shadow-sm border-1 text-[15px]'>Projects</NavLink></li>
+                                <li><NavLink to={"/about"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] shadow-sm border-1 text-[15px]'>About Me</NavLink></li>
+                                <li><NavLink to={"/contact"} className='hover:text-[#CB9DF0] dark:hover:text-[#8f2bdf] shadow-sm border-1 text-[15px]'>Contact Me</NavLink></li>
                             </ul>
                         </div>
                         <div className="navbar-end">
@@ -73,7 +75,7 @@ const Navbar = () => {
 
                                 </label>
                             </div>
-                            <Link to={"/contact"} className='btn text-[#008080] dark:text-[#14F8A3] bg-transparent shadow-sm shadow-slate-900 hover:bg-transparent text-[15px]' >Hire Me</Link>
+                            <Link to={"/contact"} className='btn text-[#CB9DF0] dark:text-[#8f2bdf] bg-transparent shadow-sm shadow-slate-900 hover:bg-transparent text-[15px]' >Hire Me</Link>
                         </div>
                     </div>
                 </div>

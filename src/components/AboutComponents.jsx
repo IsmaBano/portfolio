@@ -3,7 +3,7 @@ import { SiLinkedin } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { FaTwitterSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import shubhamabout from "../assets/shubhamabout.png";
+import girl from "../assets/girl.jpg";
 
 const AboutComponents = () => {
   return (
@@ -11,10 +11,10 @@ const AboutComponents = () => {
       <div className="w-full flex justify-center items-center mt-10 md:mt-16 lg:mt-20 mb-20">
         <div className="md:w-[85%]">
           <div className="w-full flex flex-col justify-center items-center">
-            <h2 className="text-4xl text-[#008080] dark:text-[#14F8A3]">
+            <h2 className="text-4xl text-[#CB9DF0] dark:text-[#8f2bdf]">
               About Me
             </h2>
-            <div className="w-20 h-[1.5px] bg-[#008080] dark:bg-[#14F8A3]"></div>
+            <div className="w-20 h-[1.5px] bg-[#CB9DF0] dark:bg-[#8f2bdf]"></div>
             <p className="mt-5 text-sm sm:text-lg">
               Wow, A whole page about me !!
             </p>
@@ -23,40 +23,33 @@ const AboutComponents = () => {
             <div className="hero-content flex-col lg:flex-row">
               <div className="hidden md:flex shadow-sm shadow-slate-900 rounded-md">
                 <img
-                  src={shubhamabout}
+                  src={girl}
                   className="selector max-w-sm h-[340px] pl-20 opacity-90 rounded-lg shadow-2xl"
                 />
               </div>
               <div className="pl-10 pr-10">
                 <h1 className="text-2xl md:text-4xl font-bold ">
-                  A Bit About{" "}
-                  <span className="text-[#008080] dark:text-[#14F8A3]">Me</span>
+                  A Little About{" "}
+                  <span className="text-[#CB9DF0] dark:text-[#8f2bdf]">Me</span>
                 </h1>
                 <p className="py-6">
-                  Hello! I'm Shubham, a passionate full stack web developer with
-                  a keen eye for crafting digital experiences that are both
-                  user-friendly and technically sound. With expertise in
-                  front-end and back-end development, I strive to build robust,
-                  scalable solutions. Alongside my web development journey, I
-                  actively work on Data Structures and Algorithms (DSA),
-                  ensuring my problem-solving skills are sharp and efficient.
-                  Let's build something innovative together!
+                Hi, I’m Isma, a full-stack web developer with a strong focus on creating seamless and efficient digital solutions. I specialize in both front-end and back-end technologies, aiming to build applications that are not only functional but also intuitive and scalable. Alongside web development, I am constantly honing my skills in Data Structures and Algorithms (DSA) to tackle complex problems with precision. I’m always excited to collaborate on innovative projects that push the boundaries of what’s possible!
                 </p>
                 <div className="flex gap-7 mt-2">
-                  <div className="text-2xl hover:scale-125 text-[#008080] dark:text-[#14F8A3] cursor-pointer">
+                  <div className="text-2xl hover:scale-125 text-[#CB9DF0] dark:text-[#8f2bdf] cursor-pointer">
                     <a
-                      href="https://www.linkedin.com/in/shubham-b-b35455258/"
+                      href="https://www.linkedin.com/in/isma-bano"
                       target="_blank"
                     >
                       <SiLinkedin />
                     </a>
                   </div>
-                  <div className="text-2xl hover:scale-125 text-[#008080] dark:text-[#14F8A3] cursor-pointer">
-                    <a href="https://github.com/s7917" target="_blank">
+                  <div className="text-2xl hover:scale-125 text-[#CB9DF0] dark:text-[#8f2bdf] cursor-pointer">
+                    <a href="https://github.com/IsmaBano" target="_blank">
                       <VscGithub />
                     </a>
                   </div>
-                  <div className="text-2xl hover:scale-125 text-[#008080] dark:text-[#14F8A3] cursor-pointer">
+                  <div className="text-2xl hover:scale-125 text-[#CB9DF0] dark:text-[#8f2bdf] cursor-pointer">
                     <FaTwitterSquare />
                   </div>
                 </div>
@@ -64,7 +57,7 @@ const AboutComponents = () => {
                   <Link
                     to={"/about"}
                     onClick={() => window.scroll(0, 0)}
-                    className="btn text-lg text-[#008080] dark:text-[#14F8A3] bg-transparent shadow-sm shadow-slate-900 hover:bg-transparent text-[15px] mt-5"
+                    className="btn text-lg text-[#CB9DF0] dark:text-[#8f2bdf] bg-transparent hover:scale-105 transition-transform duration-200 shadow-sm shadow-slate-900 hover:bg-transparent text-[15px] mt-5"
                   >
                     More About Me
                   </Link>

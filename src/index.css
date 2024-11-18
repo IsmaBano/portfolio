@@ -10,13 +10,13 @@ body {
 }
 
 .active {
-    color: #008080 !important;
+    color: #CB9DF0 !important;
     font-weight: 600;
 }
 
 .vertical-timeline-element-content {
-    -webkit-box-shadow: 0 3px 0 #008080;
-    box-shadow: 0 3px 0 #008080;
+    -webkit-box-shadow: 0 3px 0 #CB9DF0;
+    box-shadow: 0 3px 0 #CB9DF0;
 }
 
 .vertical-timeline::before {
@@ -26,7 +26,7 @@ body {
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #008080;
+    background: #CB9DF0;
 }
 
 .vertical-timeline-element-icon {
@@ -36,8 +36,8 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    -webkit-box-shadow: 0 0 0 4px #008080, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
-    box-shadow: 0 0 0 4px #008080, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0 0 0 4px #CB9DF0, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 0 4px #CB9DF0, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
 }
 
 .selector {

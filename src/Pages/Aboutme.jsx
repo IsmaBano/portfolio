@@ -14,7 +14,6 @@ const Aboutme = () => {
 
   useEffect(()=>{
     if(currTheme === "dark"){
-      // console.log(currTheme)
       color = "white"
     }else{
       color = "black"
@@ -31,54 +30,42 @@ const Aboutme = () => {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'transparent', color: `${color}` }}
-                contentArrowStyle={{ borderRight: '7px solid  #008080' }}
-                date="2019 - 2020"
-                iconStyle={{ background: '#008080', color: `${color}` }}
+                contentArrowStyle={{ borderRight: '7px solid  #CB9DF0' }}
+                date="2018 - 2019"
+                iconStyle={{ background: '#CB9DF0', color: `${color}` }}
                 icon={<IoSchoolSharp className='text-[#1D232A]' />}
               >
-                <h3 className="vertical-timeline-element-title text-[#008080] dark:text-[#14F8A3] text-2xl">High School</h3>
-                <h4 className="vertical-timeline-element-subtitle text-md">Parmeshwari devi dhanuka saraswati vidya mandir,  Vrindavan, Uttar pradesh</h4>
+                <h3 className="vertical-timeline-element-title text-[#CB9DF0] dark:text-[#8f2bdf] text-2xl">High School</h3>
+                <h4 className="vertical-timeline-element-subtitle text-md">Bishop Johnson School and College,Allahabad, Uttar pradesh</h4>
                 <p>
-                  <p>Percentage - 89 % ( CBSE BOARD)</p>
+                  <p> ( ICSE BOARD)</p>
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'transparent', color: `${color}` }}
-                contentArrowStyle={{ borderRight: '7px solid  #008080' }}
-                date="2021 - 2022"
-                iconStyle={{ background: '#008080', color: `${color}` }}
+                contentArrowStyle={{ borderRight: '7px solid  #CB9DF0' }}
+                date="2020 - 2021"
+                iconStyle={{ background: '#CB9DF0', color: `${color}` }}
                 icon={<GiDiploma className='text-[#1D232A]' />}
               >
-                <h3 className="vertical-timeline-element-title text-[#008080] dark:text-[#14F8A3] text-2xl">Intermediate</h3>
-                <h4 className="vertical-timeline-element-subtitle text-md">Parmeshwari devi dhanuka saraswati vidya mandir, Vrindavan, Uttar pradesh</h4>
-                <p>Percentage - 91 % ( CBSE BOARD)</p>
+                <h3 className="vertical-timeline-element-title text-[#CB9DF0] dark:text-[#8f2bdf] text-2xl">Intermediate</h3>
+                <h4 className="vertical-timeline-element-subtitle text-md">Bishop Johnson School and College Allahabad, Uttar pradesh</h4>
+                <p> ( ISC BOARD)</p>
               </VerticalTimelineElement>
+              
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'transparent', color: `${color}` }}
-                contentArrowStyle={{ borderRight: '7px solid  #008080' }}
-                date="2019 - 2021"
-                iconStyle={{ background: '#008080', color: `${color}` }}
-                icon={<FaGoogleScholar className='text-[#1D232A]' />}
-              >
-                <h3 className="vertical-timeline-element-title text-[#008080] dark:text-[#14F8A3] text-2xl">Advance Diploma in Computer Application</h3>
-                <h4 className="vertical-timeline-element-subtitle text-md"></h4>
-                <p>Branch - Computer Science & Engineering</p>
-                <p>Percentage - 80% </p>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'transparent', color: `${color}` }}
-                contentArrowStyle={{ borderRight: '7px solid  #008080' }}
+                contentArrowStyle={{ borderRight: '7px solid  #CB9DF0' }}
                 date="2022 - PRESENT"
-                iconStyle={{ background: '#008080', color: `${color}` }}
+                iconStyle={{ background: '#CB9DF0', color: `${color}` }}
                 icon={<FaGraduationCap className='text-[#1D232A]' />}
               >
-                <h3 className="vertical-timeline-element-title text-[#008080] dark:text-[#14F8A3] text-2xl">B.Tech</h3>
+                <h3 className="vertical-timeline-element-title text-[#CB9DF0] dark:text-[#8f2bdf] text-2xl">B.Tech</h3>
                 <h4 className="vertical-timeline-element-subtitle text-md">Harcourt Butler Technical University, Kanpur, Uttar Pradesh</h4>
-                <p>Branch - Information Technology</p>
-                <p>Present</p>
+                <p>Branch - Computer Science and Engineering</p>
+                <p>Present-</p>
               </VerticalTimelineElement>
             </VerticalTimeline>
           </div>
