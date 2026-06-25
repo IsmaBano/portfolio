@@ -33,7 +33,8 @@ const AboutComponents = () => {
                   <span className="text-[#CB9DF0] dark:text-[#8f2bdf]">Me</span>
                 </h1>
                 <p className="py-6">
-                Hi, I’m Isma, a full-stack web developer with a strong focus on creating seamless and efficient digital solutions. I specialize in both front-end and back-end technologies, aiming to build applications that are not only functional but also intuitive and scalable. Alongside web development, I am constantly honing my skills in Data Structures and Algorithms (DSA) to tackle complex problems with precision. I’m always excited to collaborate on innovative projects that push the boundaries of what’s possible!
+               Hi, I’m Isma — a Software Engineer and Full-Stack Developer passionate about building scalable, efficient, and user-centric digital solutions. I specialize in developing end-to-end web applications using modern technologies like React.js, Node.js, Express.js, MongoDB, and Next.js, with a strong focus on performance and seamless user experiences. I also have experience working with AI-driven systems, including Vision-Language Models (VLM) and deep learning solutions. Alongside software engineering, I continuously strengthen my problem-solving skills through Data Structures and Algorithms to build impactful and high-performance applications.
+
                 </p>
                 <div className="flex gap-7 mt-2">
                   <div className="text-2xl hover:scale-125 text-[#CB9DF0] dark:text-[#8f2bdf] cursor-pointer">

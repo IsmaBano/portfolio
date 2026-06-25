@@ -1,7 +1,7 @@
 import React from "react";
 import jobtool from "../assets/jobtool.png";
-import planiq from "../assets/planiq.png";
-import probshare from "../assets/probshare.png";;
+import excelanalytics from "../assets/excelanalytics.png";
+import formbot from "../assets/formbot.png";
 import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
@@ -27,8 +27,8 @@ const ProjectComponent = () => {
             <div className="mt-7">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <ProjectCards image={jobtool} url={"https://github.com/IsmaBano/jobTool"} title={"JobTool: A MERN stack-powered platform for seamless job management and opportunities, styled with Tailwind CSS."}/>
-              <ProjectCards image={planiq} url={"https://github.com/IsmaBano/planiq"} title={"A simple and efficient planiq app built with EJS, Node.js, and MongoDB for streamlined task management."}/>
-              <ProjectCards image={probshare} url={"https://github.com/IsmaBano/probshare"} title={"ProbShare: A collaborative problem-sharing platform built with EJS, Node.js, MongoDB, and robust authentication for secure user interactions."}/>
+                <ProjectCards image={formbot} url={"https://github.com/IsmaBano/FormBot"} title={"FormBot: An AI-powered form generation SaaS platform built with Next.js, Node.js, PostgreSQL, Drizzle ORM, and Tailwind CSS, reducing manual design effort by 50%."}/>
+                <ProjectCards image={excelanalytics} url={"https://github.com/IsmaBano/ExcelProj"} title={"Excel Analytics Platform: A full-stack event-driven analytics system using React.js, Node.js, MongoDB, Redis, Kafka, Docker, JWT, and Groq API for intelligent insights and scalable dashboards."}/>
              
 
                 <div className="flex items-center ">

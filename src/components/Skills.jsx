@@ -1,9 +1,7 @@
 import React from 'react';
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaBootstrap, FaJava, FaPython, FaNodeJs, FaReact, FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaBootstrap, FaJava, FaPython, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiMysql, SiNextdotjs } from "react-icons/si";
+import { SiExpress, SiMongodb, SiMysql, SiNextdotjs, SiRedux, SiTypescript, SiPostgresql, SiMicrosoftazure, SiApachekafka, SiRedis, SiDrizzle, SiNumpy, SiPandas } from "react-icons/si";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
 
@@ -19,144 +17,61 @@ const Skills = () => {
                             <p className='mt-5 text-sm sm:text-lg'>Here are my skills that might impress you.</p>
                         </div>
                         <div className="grid pl-3 pr-3 grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-7 mt-7">
-                            {/* HTML5 */}
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#FF5733]" style={{ "--value": 90 }} role="progressbar">
-                                    90%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>HTML5</p>
-                                    <span className='text-[#FF5733]'><FaHtml5 /></span>
-                                </div>
-                            </div>
-                            {/* CSS3 */}
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#2965F1]" style={{ "--value": 80 }} role="progressbar">
-                                    80%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>CSS3</p>
-                                    <span className='text-[#2965F1]'><FaCss3 /></span>
-                                </div>
-                            </div>
-                            {/* JavaScript */}
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#F7DF1E]" style={{ "--value": 70 }} role="progressbar">
-                                    70%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>JavaScript</p>
-                                    <span className='text-[#F7DF1E]'><IoLogoJavascript /></span>
-                                </div>
-                            </div>
-                           
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#7952B3]" style={{ "--value": 85 }} role="progressbar">
-                                    85%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>Bootstrap</p>
-                                    <span className='text-[#7952B3]'><FaBootstrap /></span>
-                                </div>
-                            </div>
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#0078D7]" style={{ "--value": 75 }} role="progressbar">
-                                    75%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>Java</p>
-                                    <span className='text-[#0078D7]'><FaJava /></span>
-                                </div>
-                            </div>
-                        
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#3776AB]" style={{ "--value": 75 }} role="progressbar">
-                                    75%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>Python</p>
-                                    <span className='text-[#3776AB]'><FaPython /></span>
-                                </div>
-                            </div>
-                     
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#61DAFB]" style={{ "--value": 70 }} role="progressbar">
-                                    70%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>ReactJs</p>
-                                    <span className='text-[#61DAFB]'><FaReact /></span>
-                                </div>
-                            </div>
-                         
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#68A063]" style={{ "--value": 75 }} role="progressbar">
-                                    75%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>Node.Js</p>
-                                    <span className='text-[#68A063]'><FaNodeJs /></span>
-                                </div>
-                            </div>
-                         
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#661a1a]" style={{ "--value": 80 }} role="progressbar">
-                                    80%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>Express.Js</p>
-                                    <span className='text-[#661a1a]'><SiExpress /></span>
-                                </div>
-                            </div>
-                           
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#47A248]" style={{ "--value": 75 }} role="progressbar">
-                                    75%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>MongoDB</p>
-                                    <span className='text-[#47A248]'><SiMongodb /></span>
-                                </div>
-                            </div>
-                            
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#00758F]" style={{ "--value": 80 }} role="progressbar">
-                                    80%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>MySQL</p>
-                                    <span className='text-[#00758F]'><SiMysql /></span>
-                                </div>
-                            </div>
-                           
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#38B2AC]" style={{ "--value": 85 }} role="progressbar">
-                                    85%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>TailwindCSS</p>
-                                    <span className='text-[#38B2AC]'><RiTailwindCssLine /></span>
-                                </div>
-                            </div>
-                        
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#333]" style={{ "--value": 70 }} role="progressbar">
-                                    70%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>GitHub</p>
-                                    <span className='text-[#333]'><FaGithub /></span>
-                                </div>
-                            </div>
-                            <div className='flex flex-col gap-3 justify-center items-center'>
-                                <div className="radial-progress text-[#518f3f]" style={{ "--value": 80 }} role="progressbar">
-                                    70%
-                                </div>
-                                <div className='flex items-center gap-3'>
-                                    <p>Next.js</p>
-                                    <span className='text-[#518f3f]'><SiNextdotjs /></span>
-                                </div>
-                            </div>
+                            {/* Languages */}
+                            <Skill name="HTML5" icon={<FaHtml5 />} color="#FF5733" value={90} />
+                            <Skill name="CSS3" icon={<FaCss3 />} color="#2965F1" value={80} />
+                            <Skill name="JavaScript" icon={<IoLogoJavascript />} color="#F7DF1E" value={75} />
+                            <Skill name="TypeScript" icon={<SiTypescript />} color="#3178C6" value={70} />
+                            <Skill name="Java" icon={<FaJava />} color="#0078D7" value={75} />
+                            <Skill name="Python" icon={<FaPython />} color="#3776AB" value={75} />
+                            <Skill name="SQL" icon={<SiMysql />} color="#00758F" value={80} />
+
+                            {/* Frontend */}
+                            <Skill name="React.js" icon={<FaReact />} color="#61DAFB" value={75} />
+                            <Skill name="Next.js" icon={<SiNextdotjs />} color="#518f3f" value={70} />
+                            <Skill name="TailwindCSS" icon={<RiTailwindCssLine />} color="#38B2AC" value={85} />
+                            <Skill name="Bootstrap" icon={<FaBootstrap />} color="#7952B3" value={85} />
+                            <Skill name="Redux" icon={<SiRedux />} color="#764ABC" value={75} />
+                            <Skill name="Axios" icon={<SiExpress />} color="#5A29E4" value={70} />
+
+                            {/* Backend */}
+                            <Skill name="Node.js" icon={<FaNodeJs />} color="#68A063" value={75} />
+                            <Skill name="Express.js" icon={<SiExpress />} color="#661a1a" value={80} />
+                            <Skill name="JWT Auth" icon={<SiExpress />} color="#FF4500" value={70} />
+                            <Skill name="bcrypt.js" icon={<SiExpress />} color="#333" value={65} />
+
+                            {/* Databases */}
+                            <Skill name="MongoDB" icon={<SiMongodb />} color="#47A248" value={75} />
+                            <Skill name="PostgreSQL" icon={<SiPostgresql />} color="#336791" value={75} />
+                            <Skill name="Drizzle ORM" icon={<SiDrizzle />} color="#00A86B" value={70} />
+                            <Skill name="Mongoose" icon={<SiMongodb />} color="#4DB33D" value={70} />
+
+                            {/* Cloud & DevOps */}
+                            <Skill name="Docker" icon={<FaDocker />} color="#0db7ed" value={75} />
+                            <Skill name="Microsoft Azure" icon={<SiMicrosoftazure />} color="#0078D4" value={65} />
+
+                            {/* AI & Data */}
+                            <Skill name="Machine Learning" icon={<SiNumpy />} color="#FF6F00" value={70} />
+                            <Skill name="Deep Learning" icon={<SiPandas />} color="#150458" value={70} />
+                            <Skill name="Vision-Language Models" icon={<SiPandas />} color="#8A2BE2" value={65} />
+                            <Skill name="NumPy" icon={<SiNumpy />} color="#013243" value={80} />
+                            <Skill name="Pandas" icon={<SiPandas />} color="#150458" value={80} />
+
+                            {/* Core CS */}
+                            <Skill name="Data Structures & Algorithms" icon={<SiExpress />} color="#FF6347" value={85} />
+                            <Skill name="OOP" icon={<SiExpress />} color="#4682B4" value={80} />
+                            <Skill name="DBMS" icon={<SiExpress />} color="#2E8B57" value={75} />
+                            <Skill name="Operating Systems" icon={<SiExpress />} color="#708090" value={70} />
+                            <Skill name="Computer Networks" icon={<SiExpress />} color="#8B0000" value={70} />
+                            <Skill name="System Design" icon={<SiExpress />} color="#FFD700" value={75} />
+
+                            {/* Tools */}
+                            <Skill name="GitHub" icon={<FaGithub />} color="#333" value={70} />
+                            <Skill name="VS Code" icon={<SiExpress />} color="#007ACC" value={80} />
+
+                            {/* Distributed Systems */}
+                            <Skill name="Apache Kafka" icon={<SiApachekafka />} color="#000000" value={70} />
+                            <Skill name="Redis" icon={<SiRedis />} color="#DC382D" value={75} />
                         </div>
                     </div>
                 </div>
@@ -164,5 +79,17 @@ const Skills = () => {
         </>
     );
 };
+
+const Skill = ({ name, icon, color, value }) => (
+    <div className='flex flex-col gap-3 justify-center items-center'>
+        <div className="radial-progress" style={{ "--value": value, color }} role="progressbar">
+            {value}%
+        </div>
+        <div className='flex items-center gap-3'>
+            <p>{name}</p>
+            <span style={{ color }}>{icon}</span>
+        </div>
+    </div>
+);
 
 export default Skills;

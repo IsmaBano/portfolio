@@ -2,20 +2,19 @@ import React from 'react'
 import jobtool from "../assets/jobtool.png";
 import planiq from "../assets/planiq.png";
 import probshare from "../assets/probshare.png";
+import drumkit from "../assets/drumkit.png"
+import luckydice from "../assets/luckydice.png"
+import jokeapp from "../assets/jokeapp.png"
+import amazon from "../assets/amazon.png"
 
+// Add new project images
+import formbot from "../assets/formbot.png"
+import excelanalytics from "../assets/excelanalytics.png"
 
 import { SiLinkedin } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { FaTwitterSquare } from "react-icons/fa";
 import ProjectCards from '../components/ProjectCards'
-
-import drumkit from "../assets/drumkit.png"
-import calculator from "../assets/calculator.png"
-import luckydice from "../assets/luckydice.png"
-import jokeapp from "../assets/jokeapp.png"
-import amazon from "../assets/amazon.png"
-import usablity from "../assets/usablity.png"
-
 
 const Projects = () => {
   return (
@@ -27,15 +26,17 @@ const Projects = () => {
             <div className=''>
               <div className="grid justify-items-center align-middle grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 
-              <ProjectCards image={jobtool} url={"https://github.com/IsmaBano/jobTool"} title={"JobTool: A MERN stack-powered platform for seamless job management and opportunities, styled with Tailwind CSS."}/>
-              <ProjectCards image={planiq} url={"https://github.com/IsmaBano/planiq"} title={"A simple and efficient planiq app built with EJS, Node.js, and MongoDB for streamlined task management."}/>
-              <ProjectCards image={probshare} url={"https://github.com/IsmaBano/probshare"} title={"ProbShare: A collaborative problem-sharing platform built with EJS, Node.js, MongoDB, and robust authentication for secure user interactions."}/>
-              <ProjectCards image={luckydice} url={"https://github.com/IsmaBano/luckyrollsgame"} title={"LuckyRollsGame: A dynamic React-based game of chance, delivering fun and excitement with every roll!"}/>
-                <ProjectCards image={jokeapp} url={"https://github.com/IsmaBano/jokeapp"} title={"Devloped a jokeapp Maker APP using react"}/>
-                <ProjectCards image={drumkit} url={"https://github.com/IsmaBano/drumkit"} title={"devloped a drumkitk Using HTML , CSS , Javascript"}/>
-                <ProjectCards image={amazon} url={"https://github.com/IsmaBano/amazonclone"} title={"Amazon website clone using HTML ,CSS"}/>
-              
+                <ProjectCards image={jobtool} url={"https://github.com/IsmaBano/jobTool"} title={"JobTool: A MERN stack-powered platform for seamless job management and opportunities, styled with Tailwind CSS."}/>
+                <ProjectCards image={planiq} url={"https://github.com/IsmaBano/planiq"} title={"A simple and efficient planiq app built with EJS, Node.js, and MongoDB for streamlined task management."}/>
+                <ProjectCards image={probshare} url={"https://github.com/IsmaBano/probshare"} title={"ProbShare: A collaborative problem-sharing platform built with EJS, Node.js, MongoDB, and robust authentication for secure user interactions."}/>
+                <ProjectCards image={luckydice} url={"https://github.com/IsmaBano/luckyrollsgame"} title={"LuckyRollsGame: A dynamic React-based game of chance, delivering fun and excitement with every roll!"}/>
+                <ProjectCards image={jokeapp} url={"https://github.com/IsmaBano/jokeapp"} title={"Developed a Joke Maker App using React."}/>
+                <ProjectCards image={drumkit} url={"https://github.com/IsmaBano/drumkit"} title={"Developed a Drumkit using HTML, CSS, JavaScript."}/>
+                <ProjectCards image={amazon} url={"https://github.com/IsmaBano/amazonclone"} title={"Amazon website clone using HTML, CSS."}/>
 
+                {/* New Projects */}
+                <ProjectCards image={formbot} url={"https://github.com/IsmaBano/FormBot"} title={"FormBot: An AI-powered form generation SaaS platform built with Next.js, Node.js, PostgreSQL, Drizzle ORM, and Tailwind CSS, reducing manual design effort by 50%."}/>
+                <ProjectCards image={excelanalytics} url={"https://github.com/IsmaBano/ExcelProj"} title={"Excel Analytics Platform: A full-stack event-driven analytics system using React.js, Node.js, MongoDB, Redis, Kafka, Docker, JWT, and Groq API for intelligent insights and scalable dashboards."}/>
               </div>
 
               <div className='flex md:pl-8 mt-20'>
