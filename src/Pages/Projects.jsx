@@ -1,4 +1,4 @@
-import React from 'react'
+
 import jobtool from "../assets/jobtool.png";
 import planiq from "../assets/planiq.png";
 import probshare from "../assets/probshare.png";
@@ -6,7 +6,7 @@ import drumkit from "../assets/drumkit.png"
 import luckydice from "../assets/luckydice.png"
 import jokeapp from "../assets/jokeapp.png"
 import amazon from "../assets/amazon.png"
-
+import logpulse from "../assets/logpulse.png"
 // Add new project images
 import formbot from "../assets/formbot.png"
 import excelanalytics from "../assets/excelanalytics.png"
@@ -37,6 +37,11 @@ const Projects = () => {
                 {/* New Projects */}
                 <ProjectCards image={formbot} url={"https://github.com/IsmaBano/FormBot"} title={"FormBot: An AI-powered form generation SaaS platform built with Next.js, Node.js, PostgreSQL, Drizzle ORM, and Tailwind CSS, reducing manual design effort by 50%."}/>
                 <ProjectCards image={excelanalytics} url={"https://github.com/IsmaBano/ExcelProj"} title={"Excel Analytics Platform: A full-stack event-driven analytics system using React.js, Node.js, MongoDB, Redis, Kafka, Docker, JWT, and Groq API for intelligent insights and scalable dashboards."}/>
+              <ProjectCards
+  image={logpulse}
+  url={"https://github.com/IsmaBano/LogPulse"}
+  title={"LogPulse: An AI-powered real-time log monitoring and observability platform built with React.js, Node.js, FastAPI, Apache Kafka, Redis, MongoDB, Docker, Prometheus, Grafana, WebSockets, and Isolation Forest for intelligent anomaly detection and scalable infrastructure monitoring."}
+/>
               </div>
 
               <div className='flex md:pl-8 mt-20'>
