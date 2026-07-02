@@ -25,7 +25,13 @@ const Projects = () => {
 
             <div className=''>
               <div className="grid justify-items-center align-middle grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                
+                 <ProjectCards image={formbot} url={"https://github.com/IsmaBano/FormBot"} title={"FormBot: An AI-powered form generation SaaS platform built with Next.js, Node.js, PostgreSQL, Drizzle ORM, and Tailwind CSS, reducing manual design effort by 50%."}/>
+                <ProjectCards image={excelanalytics} url={"https://github.com/IsmaBano/ExcelProj"} title={"Excel Analytics Platform: A full-stack event-driven analytics system using React.js, Node.js, MongoDB, Redis, Kafka, Docker, JWT, and Groq API for intelligent insights and scalable dashboards."}/>
+              <ProjectCards
+  image={logpulse}
+  url={"https://github.com/IsmaBano/LogPulse"}
+  title={"LogPulse: An AI-powered real-time log monitoring and observability platform built with React.js, Node.js, FastAPI, Apache Kafka, Redis, MongoDB, Docker, Prometheus, Grafana, WebSockets, and Isolation Forest for intelligent anomaly detection and scalable infrastructure monitoring."}
+/>
                 <ProjectCards image={jobtool} url={"https://github.com/IsmaBano/jobTool"} title={"JobTool: A MERN stack-powered platform for seamless job management and opportunities, styled with Tailwind CSS."}/>
                 <ProjectCards image={planiq} url={"https://github.com/IsmaBano/planiq"} title={"A simple and efficient planiq app built with EJS, Node.js, and MongoDB for streamlined task management."}/>
                 <ProjectCards image={probshare} url={"https://github.com/IsmaBano/probshare"} title={"ProbShare: A collaborative problem-sharing platform built with EJS, Node.js, MongoDB, and robust authentication for secure user interactions."}/>
@@ -34,14 +40,8 @@ const Projects = () => {
                 <ProjectCards image={drumkit} url={"https://github.com/IsmaBano/drumkit"} title={"Developed a Drumkit using HTML, CSS, JavaScript."}/>
                 <ProjectCards image={amazon} url={"https://github.com/IsmaBano/amazonclone"} title={"Amazon website clone using HTML, CSS."}/>
 
-                {/* New Projects */}
-                <ProjectCards image={formbot} url={"https://github.com/IsmaBano/FormBot"} title={"FormBot: An AI-powered form generation SaaS platform built with Next.js, Node.js, PostgreSQL, Drizzle ORM, and Tailwind CSS, reducing manual design effort by 50%."}/>
-                <ProjectCards image={excelanalytics} url={"https://github.com/IsmaBano/ExcelProj"} title={"Excel Analytics Platform: A full-stack event-driven analytics system using React.js, Node.js, MongoDB, Redis, Kafka, Docker, JWT, and Groq API for intelligent insights and scalable dashboards."}/>
-              <ProjectCards
-  image={logpulse}
-  url={"https://github.com/IsmaBano/LogPulse"}
-  title={"LogPulse: An AI-powered real-time log monitoring and observability platform built with React.js, Node.js, FastAPI, Apache Kafka, Redis, MongoDB, Docker, Prometheus, Grafana, WebSockets, and Isolation Forest for intelligent anomaly detection and scalable infrastructure monitoring."}
-/>
+    
+               
               </div>
 
               <div className='flex md:pl-8 mt-20'>

@@ -14,6 +14,7 @@ const Hero = () => {
       <div className="md:w-[85%]">
         <div className="hero w-full">
           <div className="w-full hero-content flex-col md:flex-row-reverse p-7 justify-between items-center">
+            
             {/* Profile Section */}
             <div className="w-full md:w-[50%] flex flex-col justify-center items-center">
               <div
@@ -33,7 +34,7 @@ const Hero = () => {
                   alt="MERN Stack"
                   className="selector w-44 h-24 bg-transparent animate-bounce"
                 />
-                <p className="text-xl font-semibold mt-2">Fullstack Developer</p>
+                <p className="text-xl font-semibold mt-2">Software Engineer | Fullstack Developer</p>
               </div>
             </div>
 
@@ -43,16 +44,17 @@ const Hero = () => {
                 Hi There,
               </h1>
               <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
-                I'm <span className="text-[#CB9DF0] dark:text-[#8f2bdf]">Isma</span>
+                I'm <span className="text-[#CB9DF0] dark:text-[#8f2bdf]">Isma Bano</span>
               </h1>
               <div className="py-6 text-[19px] md:text-[23px]">
                 <Typewriter
                   options={{
                     strings: [
-                      "Fullstack Developer!",
-                      "MERN Stack Enthusiast!",
-                      "Problem Solver!",
-                      "Clean & Reusable Code Advocate!",
+                      "Samsung R&D Intern",
+                      "AI & ML Enthusiast",
+                      "Fullstack Developer (MERN)",
+                      "1900+ LeetCode Knight",
+                      "Problem Solver & Innovator",
                     ],
                     autoStart: true,
                     deleteSpeed: 4,
@@ -61,11 +63,10 @@ const Hero = () => {
                 />
               </div>
               <p className="text-[16px] leading-relaxed">
-                Welcome to my portfolio! I'm Isma, a dedicated full-stack web
-                developer driven by innovation and creativity. Explore my
-                projects, achievements, and the unique solutions I bring to life.
-                Whether you're here to connect, collaborate, or get inspired, I'm
-                excited to share my journey with you. Enjoy your visit!
+                I’m a Software Engineer passionate about building scalable, efficient, and user-centric applications. 
+                During my internship at <strong>Samsung R&D</strong>, I developed VLM-based automated testing pipelines and deployed deep learning models with TensorFlow Lite. 
+                My projects include <strong>FormBot</strong>, an AI-powered SaaS form builder, and an <strong>Excel Analytics Platform</strong> with Kafka streaming and Groq-powered insights. 
+                Alongside development, I actively solve Data Structures & Algorithms problems — with <strong>1500+ problems solved</strong> and a <strong>1900+ LeetCode Knight rating</strong>.
               </p>
               <Link
                 to={"/about"}
